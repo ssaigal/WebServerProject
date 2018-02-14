@@ -1,0 +1,4 @@
+AuthUserFile "C:/SFSU_Projects/Webserver/src/conf/_.htpasswd"
+AuthType Basic
+AuthName "I Challenge You"
+Require valid-user

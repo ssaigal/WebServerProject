@@ -1,0 +1,6 @@
+Feb 14, 2018 4:07:58 AM server.ServerLogger print
+INFO: Server is initialized successfully
+
+Feb 14, 2018 4:07:58 AM server.ServerLogger print
+INFO: Starting Server on port : 8096
+
