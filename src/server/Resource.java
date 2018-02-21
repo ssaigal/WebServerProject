@@ -4,7 +4,8 @@ import java.io.File;
 import java.net.URL;
 import java.util.HashMap;
 
-import conf.HttpdConf;
+import server.configuration.HttpdConf;
+
 
 public class Resource {
 
@@ -14,7 +15,7 @@ public class Resource {
 	public Resource(String uri, HttpdConf config) {
 		this.uri = uri;
 		this.httpdConf = config;
-		if (this.uri.length() == 1 && this.uri.equals("/"))
+		if (uri != null && this.uri.length() == 1 && this.uri.equals("/"))
 			this.uri = Constants.DEFAULT_FILE;
 	}
 

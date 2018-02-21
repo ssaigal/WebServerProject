@@ -4,10 +4,12 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import conf.Htaccess;
-import conf.Htpassword;
-import conf.HttpdConf;
-import conf.MimeTypes;
+import server.configuration.Htaccess;
+import server.configuration.Htpassword;
+import server.configuration.HttpdConf;
+import server.configuration.MimeTypes;
+
+
 
 /**
  * 

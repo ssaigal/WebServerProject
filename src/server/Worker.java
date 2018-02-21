@@ -8,8 +8,8 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.HashMap;
 
-import conf.HttpdConf;
-import conf.MimeTypes;
+import server.configuration.HttpdConf;
+import server.configuration.MimeTypes;
 import server.request.Request;
 import server.response.Response;
 import server.response.ResponseFactory;

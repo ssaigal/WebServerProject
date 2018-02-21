@@ -1,4 +1,4 @@
-package conf;
+package server.configuration;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -33,7 +33,7 @@ public class Htpassword {
 		        }
 	         }
 		catch(FileNotFoundException ex) {
-			System.out.println("Htaccess file not found "+ex);
+			System.out.println("HtPassword file not found "+ex);
 		     }
 		finally {
 	        if (scanner != null) {

@@ -6,9 +6,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import conf.ConfigurationReader;
 import server.Constants;
 import server.Resource;
+import server.configuration.ConfigurationReader;
 import server.request.Request;
 
 public class OK extends Response {

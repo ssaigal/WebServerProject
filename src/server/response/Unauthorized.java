@@ -3,7 +3,7 @@ package server.response;
 import server.Constants;
 import server.Resource;
 import server.WebServer;
-import conf.Htaccess;
+import server.configuration.Htaccess;
 import server.request.Request;
 
 public class Unauthorized extends Response {

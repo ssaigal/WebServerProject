@@ -7,10 +7,10 @@ package server;
  */
 public class Constants {
 	
-	public static final String MIME_TYPE_LOCATION = "C:/SFSU_Projects/WebServer_Project/src/conf/mime.types";
-	public static final String HTACCESS_LOCATION = "C:/SFSU_Projects/WebServer_Project/src/conf/_.htaccess";
-	public static final String HTTPD_CONF_LOCATION = "C:/SFSU_Projects/WebServer_Project/src/conf/httpd.conf";
-	public static final String HTPASSWORD_LOCATION = "C:/SFSU_Projects/WebServer_Project/src/conf/_.htpasswd";
+	public static final String MIME_TYPE_LOCATION = "src/server/conf/mime.types";
+	public static final String HTACCESS_LOCATION = "src/server/conf/_.htaccess";
+	public static final String HTTPD_CONF_LOCATION = "src/server/conf/httpd.conf";
+	public static final String HTPASSWORD_LOCATION = "src/server/conf/_.htpasswd";
 
 	
 	public static final String SERVER_ROOT = "ServerRoot";
@@ -39,7 +39,6 @@ public class Constants {
 	
 	public static final String LOGGER_NAME = "alex-shalaka-web-server";
 	public static final String DEFAULT_FILE = "index.html";
-	public static final String TEST_FILE_PATH = "src/server/output/test.file";
 	public static final String DEFAULT_MIME_TYPE = "application/octet-stream";
 	public static final String AUTHORIZATION = "Authorization";
 	public static final String LAST_MODIFIED = "Last-Modified";

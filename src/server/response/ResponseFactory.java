@@ -13,7 +13,6 @@ public class ResponseFactory {
 			if (!validRequest(request))
 				return new BadRequest(request, resource);
 
-			//if (authenticationRequired(request, resource)) {
 				if (!authHeaderAvailable(request)) 
 					return new Unauthorized(request, resource);
 				else 
@@ -21,7 +20,7 @@ public class ResponseFactory {
 					if (!userAuthenticated(request))
 					return new Forbidden(request, resource);
 				}
-			//}
+			
 
 			if (!scriptAliased(resource))
 				return handleVerbResponses(request, resource);
@@ -37,14 +36,6 @@ public class ResponseFactory {
 
 	private boolean validRequest(Request request) {
 		return request.isRequestValid();
-	}
-
-
-	private boolean authenticationRequired(Request request, Resource resource) {
-		String accessFileName = resource.getHttpConf().getAccessFileName();
-		if (accessFileName != null && request.getUri().contains(accessFileName))
-			return true;
-		return false;
 	}
 
 	private boolean authHeaderAvailable(Request request) {

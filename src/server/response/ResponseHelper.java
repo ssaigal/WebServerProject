@@ -11,7 +11,7 @@ import java.util.HashMap;
 import server.Constants;
 import server.Resource;
 import server.WebServer;
-import conf.MimeTypes;
+import server.configuration.MimeTypes;
 import server.request.Request;
 
 public class ResponseHelper {
