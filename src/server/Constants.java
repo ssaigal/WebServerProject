@@ -39,6 +39,7 @@ public class Constants {
 	
 	public static final String LOGGER_NAME = "alex-shalaka-web-server";
 	public static final String DEFAULT_FILE = "index.html";
+	public static final String TEST_FILE_PATH = "src/server/testfile/test.file";
 	public static final String DEFAULT_MIME_TYPE = "application/octet-stream";
 	public static final String AUTHORIZATION = "Authorization";
 	public static final String LAST_MODIFIED = "Last-Modified";
