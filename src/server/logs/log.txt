@@ -1,0 +1,153 @@
+Feb 20, 2018 4:23:09 PM server.ServerLogger print
+INFO: Server is initialized successfully
+
+Feb 20, 2018 4:23:09 PM server.ServerLogger print
+INFO: Starting Server on port : 8096
+
+Feb 20, 2018 4:23:15 PM server.ServerLogger print
+INFO: Connected to  Client: 1
+
+Feb 20, 2018 4:23:15 PM server.ServerLogger print
+INFO: Connected to  Client: 2
+
+Feb 20, 2018 4:23:15 PM server.ServerLogger print
+INFO: Request from client: GET / HTTP/1.1
+Authorization: Basic anJvYjoxMjM0
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+Connection: Keep-Alive
+Host: localhost:8096
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+DNT: 1
+
+null
+
+Feb 20, 2018 4:23:15 PM server.ServerLogger print
+INFO: Response from client: HTTP/1.1 200 OK
+Server: web-server-alex-shalaka
+Last-Modified: 2018/02/20 13:21:47
+Content-Length: 3213
+Date: 2018/02/20 16:23:15
+Content-Type: text/html
+
+
+
+Feb 20, 2018 4:23:15 PM server.ServerLogger print
+INFO: Request from client: GET /js/image-test.js HTTP/1.1
+Authorization: Basic anJvYjoxMjM0
+Accept: application/javascript, */*;q=0.8
+Referer: http://localhost:8096/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+Connection: Keep-Alive
+Host: localhost:8096
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+DNT: 1
+
+null
+
+Feb 20, 2018 4:23:15 PM server.ServerLogger print
+INFO: Connected to  Client: 3
+
+Feb 20, 2018 4:23:15 PM server.ServerLogger print
+INFO: Response from client: HTTP/1.1 200 OK
+Server: web-server-alex-shalaka
+Last-Modified: 2018/02/19 21:20:37
+Content-Length: 699
+Date: 2018/02/20 16:23:15
+Content-Type: application/octet-stream
+
+
+
+Feb 20, 2018 4:23:15 PM server.ServerLogger print
+INFO: Request from client: GET /images/sushi.jpg HTTP/1.1
+Authorization: Basic anJvYjoxMjM0
+Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5
+Referer: http://localhost:8096/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+Connection: Keep-Alive
+Host: localhost:8096
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+DNT: 1
+
+null
+
+Feb 20, 2018 4:23:15 PM server.ServerLogger print
+INFO: Response from client: HTTP/1.1 200 OK
+Server: web-server-alex-shalaka
+Last-Modified: 2018/02/16 14:59:59
+Content-Length: 40478
+Date: 2018/02/20 16:23:15
+Content-Type: image/jpeg
+
+
+
+Feb 20, 2018 4:23:21 PM server.ServerLogger print
+INFO: Connected to  Client: 4
+
+Feb 20, 2018 4:23:21 PM server.ServerLogger print
+INFO: Connected to  Client: 5
+
+Feb 20, 2018 4:23:21 PM server.ServerLogger print
+INFO: Request from client: GET /cgi-bin/basic_args.sh HTTP/1.1
+Authorization: Basic anJvYjoxMjM0
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://localhost:8096/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+Connection: Keep-Alive
+Host: localhost:8096
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+DNT: 1
+
+null
+
+Feb 20, 2018 4:23:21 PM server.ServerLogger print
+INFO: Response from client: HTTP/1.1 500 Internal Server Error
+Server: web-server-alex-shalaka
+Content-Length: 42
+Date: 2018/02/20 16:23:21
+Content-Type: text/html
+
+<h1>500</h1><h2>Internal Server Error</h2>
+
+Feb 20, 2018 4:23:48 PM server.ServerLogger print
+INFO: Request from client: null
+
+null
+
+Feb 20, 2018 4:25:03 PM server.ServerLogger print
+INFO: Connected to  Client: 6
+
+Feb 20, 2018 4:25:03 PM server.ServerLogger print
+INFO: Connected to  Client: 7
+
+Feb 20, 2018 4:25:03 PM server.ServerLogger print
+INFO: Request from client: GET /cgi-bin/perl_env HTTP/1.1
+Authorization: Basic anJvYjoxMjM0
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+Connection: Keep-Alive
+Host: localhost:8096
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+DNT: 1
+
+null
+
+Feb 20, 2018 4:25:03 PM server.ServerLogger print
+INFO: Response from client: HTTP/1.1 500 Internal Server Error
+Server: web-server-alex-shalaka
+Content-Length: 42
+Date: 2018/02/20 16:25:03
+Content-Type: application/octet-stream
+
+<h1>500</h1><h2>Internal Server Error</h2>
+
+Feb 20, 2018 4:26:52 PM server.ServerLogger print
+INFO: Request from client: null
+
+null
+
